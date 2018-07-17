@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="padding-cell col-lg-4 col-md-4 col-sm-4"*ngFor="let product of products">
+      <h3> {{product.product_name}}</h3>
+      <div> {{product.product_category}}</div>
+      <img class="img-fluid" src="{{product.image}}">
+      <div class="product-label"><span class="product-sm-label">Price:</span> {{product.price | currency:"USD$"}}</div>
+      <div class="product-label"><span class="product-sm-label">Color:</span> {{product.color}}</div>
+      <div class="product-label">
+        <span class="product-sm-label">Description: </span>
+        <span class="product-description">{{product.description}}</span>
+      </div>
+    </div>
+  </div>
+</div>

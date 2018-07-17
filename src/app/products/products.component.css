@@ -1,0 +1,13 @@
+.product-label {
+  text-align: left;
+}
+
+.product-sm-label {
+  font-size: 10px;
+  font-style: italic;
+
+}
+
+.product-description {
+  font-size: 12px;
+}
